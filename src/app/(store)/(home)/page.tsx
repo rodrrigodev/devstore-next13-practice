@@ -6,7 +6,7 @@ export default async function Home() {
     <div className="grid-rows-6 grid max-h-[860px] grid-cols-9 gap-6">
       <Link
         href="/"
-        className="row-span-6 group relative col-span-6 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
+        className="group relative col-span-6 row-span-6 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
       >
         <Image
           src="/moletom-never-stop-learning.png"
@@ -27,7 +27,7 @@ export default async function Home() {
 
       <Link
         href="/"
-        className="row-span-3 group relative col-span-3 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
+        className="group relative col-span-3 row-span-3 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
       >
         <Image
           src="/moletom-java.png"
@@ -48,7 +48,7 @@ export default async function Home() {
 
       <Link
         href="/"
-        className="row-span-3 group relative col-span-3 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
+        className="group relative col-span-3 row-span-3 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
       >
         <Image
           src="/camiseta-dowhile-2022.png"
